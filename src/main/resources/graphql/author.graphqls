@@ -1,0 +1,13 @@
+type Author {
+    id: ID!
+    name: String!
+    email: String
+    phoneNumber: String
+    books: [Book]
+}
+
+input AuthorInput{
+    name: String!
+    email: String
+    phoneNumber: String
+}

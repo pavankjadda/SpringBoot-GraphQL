@@ -1,0 +1,13 @@
+# The Root Query for the application
+type Query {
+    findBookById(id: ID!): Book
+    findAllBooks: [Book]
+    findAllAuthors: [Author]
+    findAuthorById(id: ID!): Author
+}
+
+# The Root Mutation for the application
+type Mutation {
+    createBook(input: BookInput): Book
+    createAuthor(input: AuthorInput): Author
+}
