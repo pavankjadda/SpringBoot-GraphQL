@@ -6,6 +6,13 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+
+/**
+ * Author entity class that maps to the author table in the database.
+ *
+ * @author Pavan Kumar Jadda
+ * @since 1.0.0
+ */
 @Data
 @Entity
 @Table(name = "author")

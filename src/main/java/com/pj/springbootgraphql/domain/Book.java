@@ -7,6 +7,13 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+
+/**
+ * Book entity class that maps to the book table in the database.
+ *
+ * @author Pavan Kumar Jadda
+ * @since 1.0.0
+ */
 @Data
 @Entity
 @Table(name = "book")
